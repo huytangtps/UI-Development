@@ -1,0 +1,465 @@
+/*	Pricing Tables 1
+/*----------------------------------------------------*/
+
+.pricing-table-1 .price-block {
+	text-align: center;
+	transition: all 0.25s;
+	margin: 0 auto 20px auto;
+	box-shadow: 0px 6px 7.6px 0.4px rgba(53, 53, 53, 0.3);
+	position: relative;
+}
+
+.pricing-table-1 hr{
+	border-color: #9d9d9d;
+	padding: 0;
+	margin: 0;
+	opacity: .1;
+}
+
+.pricing-table-1 h3 {
+	text-transform: uppercase;
+	padding: 20px 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+.pricing-table-1 .title{
+	padding: 25px;
+	font-size: 18px;
+}
+
+.pricing-table-1 .title span{
+	border: 1px solid #282828;
+	padding: 8px;
+	margin-right: 10px;
+	font-weight: bold;;
+}
+
+.pricing-table-1 .per{
+	padding-bottom: 15px;
+}
+.pricing-table-1 .pastel-black .title span{
+	border: 1px solid #fff152;
+}
+
+.pricing-plans .pricing-table-1 .header .row, .pricing-plans .pricing-table-1 .header .row > div{
+	padding: 0;
+	margin: 0;
+}
+
+.pricing-plans .pricing-table-1 .pastel-yellow .header{
+	background: #fff152;
+}
+
+.pricing-plans .pricing-table-1 .pastel-grey .header{
+	background: #fbfbfb;
+}
+
+.pricing-plans .pricing-table-1 .pastel-black .header{
+	background: #282828;
+	color: #fff152;
+}
+
+
+.pricing-plans .pricing-table-1 h3{
+	font-size: 22px;
+
+}
+.pricing-plans .page-title-default h3{
+	text-transform: uppercase;
+}
+
+.pricing-table-1 h4{
+	font-weight: bold;
+	position: relative;
+	padding-top: 20px;
+}
+.pricing-table-1 h4 .from{
+	position: absolute;
+	top: -5px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.pricing-table-1 .hour i{
+	padding-right: 5px;
+}
+
+
+
+.pricing-table-1 .pastel-black .per, .pricing-table-1 .pastel-black .from{
+	color: #fff;
+	padding-top: 0;
+}
+
+.pricing-table-1 .price {
+	display: inline-block;
+	background: #898989;
+	width: 100%;
+}
+
+.pricing-table-1 .price-figure {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 14px;
+}
+
+.pricing-table-1 .price-number {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 0;
+}
+
+.pricing-table-1 .price-tenure {
+	font-size: 11px;
+	margin-top: 0;
+}
+
+.pricing-table-1 .features {
+	padding: 0;
+	margin: 0;
+}
+
+.pricing-table-1 .features li {
+	padding: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.pricing-table-1 .features li:last-child{
+	padding-bottom: 60px;
+}
+
+.pricing-table-1 .features li.disabled{
+	color: rgba(40, 40, 40, 0.3);
+	text-decoration: line-through;
+}
+
+.pricing-table-1 .price-footer {
+	position: absolute;
+	bottom: -38px;
+	left: 0;
+	right: 0;
+}
+
+.pricing-table-1 .price-footer .btn{
+	border-radius: 50px;
+	padding: 15px 40px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+	box-shadow: 0px 6px 7.6px 0.4px rgba(53, 53, 53, 0.3);
+}
+
+.pricing-table-1 .pastel-grey .price-footer .btn{
+	background: #fbfbfb;
+}
+.pricing-table-1 .pastel-black .price-footer .btn{
+	background: #282828;
+	color: #fff152;
+}
+
+.pricing-table-1 .desc{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.pricing-plans .collective-works{
+	background: url(../images/collective-works.jpg) no-repeat 50% center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.pricing-plans .collective-works .bg-grey{
+	padding: 90px 0;
+	background: rgba(25, 25, 25, .5);
+}
+.pricing-plans .collective-works h2{
+	font-weight:bold;
+}
+.pricing-plans .collective-works .view-membership{
+	width: 140px;
+	height: 140px;
+	display: inline-block;
+	border: 1px solid #fff152;
+	color: #fff152;
+	border-radius: 50%;
+	font-size: 15px;
+	text-decoration: underline;
+	padding-top: 30px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+.pricing-plans .collective-works .view-membership i{
+	color: #fff152;
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+.pricing-plans .virtual-memberships{
+	background: #282828;
+	padding: 70px 0;
+	color: #fff;
+	font-size: 16px;
+}
+
+.pricing-plans .virtual-memberships .box{
+	width: 170px;
+	height: 170px;
+	background: #fff152;
+	text-align: center;
+	padding-top: 30px;
+	color: #000;
+	margin-bottom: 40px;
+}
+.pricing-plans .virtual-memberships h4{
+	font-weight: bold;
+}
+.pricing-plans .virtual-memberships .title{
+	color: #fff152;
+	margin-top: 30px;
+}
+
+.pricing-plans .virtual-memberships p{
+ 	color: #fff;
+	font-weight: bold;
+}
+.pricing-plans .virtual-memberships .list-unstyled li{
+	color: #fff;
+}
+.pricing-plans .virtual-memberships .box h2, .pricing-plans .virtual-memberships .box h4, .pricing-plans .virtual-memberships .box .price{
+	font-weight: bold;
+}
+.pricing-plans .virtual-memberships .box .price{
+	font-size: 18px;
+	padding: 5px 0;
+}
+
+.pricing-plans .collective-advantage{
+	padding: 70px 0;
+}
+
+.pricing-plans .collective-advantage ul li{
+	font-size: 17px;
+	padding-bottom: 15px;
+}
+
+.pricing-plans .collective-advantage .partners{
+	margin-top: 30px;
+}
+
+.pricing-plans .collective-advantage .partners img{
+	text-align: center;
+	max-width: 100%;
+}
+
+.pricing-plans .collective-works-item{
+	font-size: 16px;
+	position: relative;
+}
+.pricing-plans .collective-works-item p{
+	font-size: 16px;
+}
+
+
+.pricing-plans .collective-works-item .title{
+	font-weight: bold;
+	font-size: 26px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.pricing-plans .collective-works-item .title span{
+	border: 1px solid #282828;
+	padding: 15px;
+	margin-right: 10px;
+}
+
+.pricing-plans .collective-works-item h4{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.pricing-plans .collective-works-item .suitable h4{
+	margin-bottom: 30px;
+}
+
+.pricing-plans .collective-works-item .suitable .suitable-item{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.pricing-plans .collective-works-item .suitable .available-addons > div{
+	margin-bottom: 20px;
+}
+
+.pricing-plans .collective-works-item .bg-yellow{
+	background: #fff152;
+	padding-bottom: 30px;
+}
+
+.pricing-plans .collective-works-item .bg-grey{
+	background: #fbfbfb;
+	padding-bottom: 30px;
+}
+.pricing-plans .collective-works-item .bg-black{
+	background: #282828 !important;
+	padding-bottom: 30px;
+	color: #fff152;
+}
+
+.pricing-plans .collective-works-item .bg-black p{
+	color: #fff;
+}
+
+.pricing-plans .collective-works-item .bg-black .title span{
+	border-color: #fff152;;
+}
+
+.pricing-plans .collective-works-item .footer{
+	padding: 50px 0;
+	box-shadow: 0px 6px 7.6px 0.4px rgba(53, 53, 53, 0.3);
+	position: relative;
+	z-index: 1;
+}
+.pricing-plans .collective-works-item .footer .left{
+	color: #a1a1a1;
+}
+.pricing-plans .collective-works-item .footer .left a{
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+
+.pricing-plans .sure-which-membership{
+	padding: 40px 0 70px 0;
+	font-size: 16px;
+}
+.pricing-plans .sure-which-membership .page-title-default{
+	margin: 0;
+}
+.pricing-plans .sure-which-membership .page-title-default img{
+	margin-bottom: 20px;
+}
+.pricing-plans .sure-which-membership p{
+	margin-bottom: 50px;
+	font-size: 22px;
+}
+
+.pricing-plans .collective-advantage .page-title-default{
+	margin: 0;
+}
+
+.pricing-plans .collective-advantage .page-title-default img{
+	margin-bottom: 20px;
+}
+
+.pricing-plans .introducing-bespoke{
+	background: url(../images/hero.png) no-repeat 50% center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+.pricing-plans .introducing-bespoke .bg-grey{
+	padding: 90px 0;
+	background: rgba(25, 25, 25, .5);
+}
+
+.pricing-plans .introducing-bespoke .introducing{
+	color: #fff152;
+	font-size: 55px;
+}
+.pricing-plans .introducing-bespoke .dot{
+	color: #fff152;
+	font-size: 55px;
+}
+.pricing-plans .introducing-bespoke .bespok{
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.pricing-plans .introducing-bespoke h3{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.pricing-plans .introducing-bespoke .btn-learn-more{
+	color: #fff152;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Hover Effects */
+.pricing-table-1 .price-block:hover {
+	transform: scale(1.04) translateY(-5px);
+	-webkit-transform: scale(1.04) translateY(-5px);
+	z-index: 1;
+	border-bottom: 0 none;
+}
+
+.pricing-table-1 .price-block:hover .price.pastel-blue { background: #6082EB; }
+.pricing-table-1 .price-block:hover .price.pastel-green { background: #18B29D; }
+.pricing-table-1 .price-block:hover .price.pastel-red { background: #FF5E65; }
+.pricing-table-1 .price-block:hover .price.pastel-orange { background: #FFB068; }
+
+
+/* Ribbons */
+.ribbon {
+	position: absolute;
+	top: -4px;
+	right: 11px;
+	width: 82px;
+	height: 82px;
+	overflow: hidden;
+	z-index: 10
+}
+
+.red-hot { background: url("../images/ribbons/red-hot.png") 0 0 no-repeat; }
+.best-value { background: url("../images/ribbons/best-value.png") 0 0 no-repeat; }
+.super-cool { background: url("../images/ribbons/super-cool.png") 0 0 no-repeat; }
+.new { background: url("../images/ribbons/new.png") 0 0 no-repeat; }
+.premium { background: url("../images/ribbons/premium.png") 0 0 no-repeat; }
+.exclusive { background: url("../images/ribbons/exclusive.png") 0 0 no-repeat; }
+.popular { background: url("../images/ribbons/popular.png") 0 0 no-repeat; }
+.five-stars { background: url("../images/ribbons/five-stars.png") 0 0 no-repeat; }
+
+
+
+/*	Pricing Tables 1 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	.pricing-table-1 .price-block {
+		margin-bottom: 20px;
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}
+
+
+
